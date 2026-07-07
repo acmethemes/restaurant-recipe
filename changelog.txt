@@ -1,0 +1,70 @@
+== Change log ==
+
+= 4.0.0 - Jun 26 2026 =
+* Updated: WordPress 7.0 compatibility
+* Updated: Requires PHP 7.4
+* Updated: Tested up to WordPress 7.0
+
+= 3..0.8 - Apr 21 2025 =
+* Added: Tested with the latest WordPress.
+* Added: Static caching mechanism for theme options to improve performance.
+* Fixed: Resolved issue with translation function preload
+
+= 3.0.7 - Jan 22 2025 =
+* Added: Enhanced support for the latest WordPress version.
+* Updated: Improved CSS compatibility.
+
+= 3.0.6 - August 01 2023 =
+* Added: Recommended Classic Widgets plugin
+* Updated: WordPress latest compatibility
+
+= 3.0.5 - Feb 15 2022 =
+* Updated: WordPress latest compatibility
+
+= 3.0.4 - July 21 2021 =
+* Added   :   WordPress 5.8 compatibility
+
+= 3.0.3 - June 25 2021 =
+* Fixed   :  Notice on Editor Gutenberg Editor
+* Updated   :  RTL CSS
+
+= 3.0.2 - Jan 14 2021 =
+* Added   : Links within content must be underlined
+
+= 3.0.1 - Sept 24 2020 =
+- Fixed : JS console issue
+- Updated : Blog list design
+- Updated : Default blog title
+
+For previous blog list design, add following custom CSS on Appearance => Customize => Additional CSS:
+
+article.post .entry-content.no-image {
+	-webkit-box-shadow:  none;
+	box-shadow:  none;
+	padding: 0;
+}
+
+= 3.0.0 - Aug 04 2020 =
+* Added   : Advanced Demo Import
+* Removed : Acme Demo Setup Plugin from TGM
+* Updated : Getting Started experience
+* Updated : Keyboard navigation
+* Updated : Style.css header
+* Updated : New Theme Check Info
+* Fixed : Customizer Repeater
+
+= 2.0.1 - Oct 16 2019=
+* Added : wp_body_open hook in header
+* Added : Gutentor Plugin in TGM
+* Added : wp-config.xml file for translation
+* Added : Upgrade to pro
+* Fixed : Screen Reader Text
+
+= 2.0.0 - June 17 2019 =
+* Added : Gutenberg Ready
+* Added : Language file
+* Fixed : RTL CSS
+* Fixed : Space before DOCTYPE
+
+= 1.0.0 =
+* Submitted on WordPress dot org
